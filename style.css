@@ -1,0 +1,22 @@
+nav ul{
+    text-decoration: none;
+}
+nav ul{
+display: flex;
+justify-content: space-between;
+}
+nav li{
+    list-style: none;
+}
+nav li button{
+    background-color:#30B868;
+    color: white;
+}
+nav li button:hover{
+    background-color:black;
+}
+.text{
+    align-items: top;
+    align-items: center;
+    gap: 40px;
+}
