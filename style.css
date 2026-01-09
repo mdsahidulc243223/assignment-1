@@ -33,6 +33,9 @@ nav li button:hover{
     align-items: center;
     color: #30B868;
 }
+ .hero-contain button:hover{
+    background-color:black;
+}
 .hero h1 span{
     color: #30B868;
     font-size: 1.25em;
@@ -113,19 +116,46 @@ color: white;
 }
 footer{
     background:var(--Style, rgba(0, 25, 49, 1));;
+   padding: 40px 0 20px; 
+}
+.footer-top{
     display: flex;
-    padding: 5px;
     justify-content: space-between;
     align-items: center;
-    width:100%;
-    height: 348px;
+    flex-wrap: wrap;
+}
+.footer-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
     text-align: center;
 }
-footer img{
-    width: 139px;
-    height: 60px;
+.footer-logo img{
+    width: 120px;
+    margin-bottom: 20px;
 }
-footer p{
+.footer-text p{
+font-size: 18px;
+margin-bottom: 15px;
+font-weight: 600;
+color: white;
+}
+.sociallink-icon img{
+background-color: white;
+border-radius: 15px;
+width: 35px;
+height: 35px;
+cursor: pointer;
+}
+.sociallink-icon img:hover{
+background-color:red;
+}
+.footer-bottom hr{
+    border: none;
+    height: 1px;
+    background: white;
+    margin-bottom: 15px;
+}
+.footer-bottom p{
     color: white;
-
 }
