@@ -1,8 +1,6 @@
 nav ul{
     text-decoration: none;
-}
-nav ul{
-display: flex;
+    display: flex;
 justify-content: space-between;
 }
 nav li{
@@ -11,6 +9,12 @@ nav li{
 nav li button{
     background-color:#30B868;
     color: white;
+    width: 164px;
+    height: 44px;
+    font-size: 16px;
+    font-style: strong;
+    padding: 12 16;
+    border-radius: 4px;
 }
 nav li button:hover{
     background-color:black;
@@ -19,4 +23,43 @@ nav li button:hover{
     align-items: top;
     align-items: center;
     gap: 40px;
+}
+.hero-contain button{
+    border-radius: 10px;
+    width: 229px;
+    height: 35px;
+    padding: 8px 12px;
+    font-size: 1em;
+    align-items: center;
+    color: #30B868;
+}
+.hero h1 span{
+    color: #30B868;
+    font-size: 1.25em;
+}
+.hero h1{
+    font-size: 48px;
+margin-bottom: 20px;
+}
+.hero{
+    background-image: url("./assets/hero-bg.png");
+    height: 500px;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}.hero-contain p{
+    color: rgb(214, 212, 212);
+}
+.hero button{
+border-radius: 4px;
+background-color:#30B868 ;
+color: white;
+}
+ .note-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
