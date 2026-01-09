@@ -40,6 +40,7 @@ nav li button:hover{
 .hero h1{
     font-size: 48px;
 margin-bottom: 20px;
+color: white;
 }
 .hero{
     background-image: url("./assets/hero-bg.png");
@@ -62,4 +63,32 @@ color: white;
     align-items: center;
     text-align: center;
 
+}
+.card img{
+    background-color: red;
+   padding: 10px;
+    border-radius: 50%; 
+}
+.card{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+.Card-container{
+    display: flex;
+    gap: 70px;
+}
+.brain-section{
+    width: 120px;
+    height: 120px;
+}
+.image{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+    margin: 30px;
 }
